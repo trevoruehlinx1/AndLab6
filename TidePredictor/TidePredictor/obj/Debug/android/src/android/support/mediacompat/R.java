@@ -30,7 +30,7 @@ public final class R {
         public static int design_appbar_state_list_animator=0x7f060000;
     }
     public static final class array {
-        public static int test_data_array=0x7f0e0000;
+        public static int test_data_array2=0x7f0e0000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -3198,8 +3198,9 @@ containing a value of this type.
         public static int select_dialog_item_material=0x7f040039;
         public static int select_dialog_multichoice_material=0x7f04003a;
         public static int select_dialog_singlechoice_material=0x7f04003b;
-        public static int support_simple_spinner_dropdown_item=0x7f04003c;
-        public static int tooltip=0x7f04003d;
+        public static int simplelistitem1=0x7f04003c;
+        public static int support_simple_spinner_dropdown_item=0x7f04003d;
+        public static int tooltip=0x7f04003e;
     }
     public static final class mipmap {
         public static int ic_launcher=0x7f030000;

@@ -3198,8 +3198,9 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f040039;
         public static final int select_dialog_multichoice_material=0x7f04003a;
         public static final int select_dialog_singlechoice_material=0x7f04003b;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003c;
-        public static final int tooltip=0x7f04003d;
+        public static final int simplelistitem1=0x7f04003c;
+        public static final int support_simple_spinner_dropdown_item=0x7f04003d;
+        public static final int tooltip=0x7f04003e;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

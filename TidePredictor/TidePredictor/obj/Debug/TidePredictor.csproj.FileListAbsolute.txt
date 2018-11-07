@@ -29,6 +29,7 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredic
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_round.png
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\res\layout\list_item.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\res\layout\simplelistitem1.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\R.cs.flag
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\R.txt
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Lab 6\TidePredictor\TidePredictor\obj\Debug\uploadflags.txt
