@@ -53,11 +53,11 @@ namespace TidePredictor
 
         String[] sections;
         Java.Lang.Object[] sectionsObjects;
-        Dictionary<string, int> alphaIndex;
+        Dictionary<string, int> monthIndex;
 
         public int GetPositionForSection(int section)
         {
-            return alphaIndex[sections[section]];
+            return monthIndex[sections[section]];
         }
 
         public int GetSectionForPosition(int position)
@@ -72,19 +72,19 @@ namespace TidePredictor
 
         private void BuildSectionIndex()
         {
-            alphaIndex = new Dictionary<string, int>();
+            monthIndex = new Dictionary<string, int>();
             for (var i = 0; i < tideList.Count; i++)
             {
                 // Use the first character in the name as a key.
                 var key = tideList[i].Substring(4,2);
-                if (!alphaIndex.ContainsKey(key))
+                if (!monthIndex.ContainsKey(key))
                 {
-                    alphaIndex.Add(key, i);
+                    monthIndex.Add(key, i);
                 }
             }
 
-            sections = new string[alphaIndex.Keys.Count];
-            alphaIndex.Keys.CopyTo(sections, 0);
+            sections = new string[monthIndex.Keys.Count];
+            monthIndex.Keys.CopyTo(sections, 0);
             sectionsObjects = new Java.Lang.Object[sections.Length];
             for (var i = 0; i < sections.Length; i++)
             {
